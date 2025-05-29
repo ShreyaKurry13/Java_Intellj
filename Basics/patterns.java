@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class patterns {
 
+<<<<<<< HEAD
 //    static  void patterns(int r,int c){
 //        for (int i = 1; i < r; i++) {  // 1
 //            for (int j = 0; j < c; j++) {
@@ -17,11 +18,17 @@ public class patterns {
     public static void rectangle(int a,int b){
         for (int i = 1; i <=a ; i++) {
             for (int j = 1; j <= b; j++) {
+=======
+    static  void patterns(int r,int c){
+        for (int i = 1; i < r; i++) {  // 1
+            for (int j = 0; j < c; j++) {
+>>>>>>> a4ff999877026c4b34456378bc86d9b726661a75
                 System.out.print(" * ");
             }
             System.out.println();
         }
     }
+<<<<<<< HEAD
 //     *  *  *  *  *
 //     *  *  *  *  *
 //     *  *  *  *  *
@@ -68,17 +75,24 @@ public class patterns {
         }
     }
 
+=======
+>>>>>>> a4ff999877026c4b34456378bc86d9b726661a75
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter rows and cols: ");
         int rows = sc.nextInt();
+<<<<<<< HEAD
 //        int cols = sc.nextInt();
 //        patterns(rows, cols);
 //        rectangle(rows,cols);
 //        rightAngledTriangle(rows);
 //        hollowRectangle(4,5);
         invertedTriangle(rows);
+=======
+        int cols = sc.nextInt();
+        patterns(rows, cols);
+>>>>>>> a4ff999877026c4b34456378bc86d9b726661a75
     }
 }
